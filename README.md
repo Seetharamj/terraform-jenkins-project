@@ -1,4 +1,4 @@
-#🚀 Project Launch: CI/CD Deployment of EC2 Infrastructure on AWS using Terraform & Jenkins 🌐💻
+## 🚀 Terraform + Jenkins CI/CD: EC2 Infrastructure Deployment on AWS
 
 This project automates the deployment of a single EC2 instance on AWS using **Terraform**, with a CI/CD pipeline powered by **Jenkins**. The pipeline provisions an EC2 instance, security group for SSH access, and creates a custom AMI image — all from a GitHub repository.
 
@@ -25,7 +25,7 @@ terraform-jenkins-project/
 └── README.md # Project documentation
 
 
-🏃‍♂️ How to Run:
+## 🏃‍♂️ How to Run:
 
 1.Clone the repo: git clone https://github.com/Seetharamj/terraform-jenkins-project.git && cd terraform-jenkins-project
 
