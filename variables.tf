@@ -13,15 +13,16 @@ variable "instance_type" {
   type        = string
 }
 
-variable "key_name" {
-  description = "Name of the SSH key pair"
+variable "aws_key_pair" {
+  description = "The name of the AWS key pair"
   type        = string
 }
 
-variable "public_key" {
-  description = "Public key for the key pair"
+variable "aws_public_key" {
+  description = "The public key for SSH access"
   type        = string
 }
+
 
 variable "vpc_id" {
   description = "VPC ID to launch the EC2 instance in"
